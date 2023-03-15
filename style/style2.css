@@ -1,0 +1,56 @@
+body{
+    font-family: gothic;
+    margin: 0;
+    padding: 0;
+}
+.dropdwn{
+    margin: auto;
+}
+
+nav{
+    height: 150px;
+    background: #2c3e50;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.1);
+}
+.logo{
+    padding: 5px 0 0 80px;
+    width: 150;
+    height: auto;
+    
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+
+}
+nav ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+
+}
+nav ul li a:hover{
+    background: #243342;
+
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+
+
+}
+
+
+

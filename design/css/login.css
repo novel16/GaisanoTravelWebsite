@@ -1,0 +1,18 @@
+*{
+	color: #FFF;
+}
+.bg{
+	background: url(../image/raffle.jpg) no-repeat;
+	width:100%;
+	height: 99.9vh;
+
+}
+.form-container{
+	border: 0px solid #fff;
+	padding: 30px 60px;
+	margin-top: 20vh;
+	-webkit-box-shadow: 4px 40px 26px 11px rgba(4,2,2,0.75);
+	-moz-box-shadow: 5px 40px 26px 11px rgba(2,0,0,0.75);
+	box-shadow: 1px 1px 46px 21px rgba(2,0,0,0.75);
+	background-color:#E12233;
+}

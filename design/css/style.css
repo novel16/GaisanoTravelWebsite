@@ -1,0 +1,107 @@
+@media print{
+	#van_no{
+		border:none;
+		font-weight: bold;
+		color:black;
+		font-size: 18px;
+	}
+	#dateopen{
+		border:none;
+		font-weight: bold;
+		color:black;
+		font-size: 18px;
+	}
+	#btn2{
+		display:none;
+	}
+	#btn_save_manifest{
+		display:none;
+	}
+	#btn_search_van{
+		display: none;
+	}
+	#shipper{
+		font-weight: bold;
+		color:black;
+		font-size: 18px;
+	}
+	#destination{
+		font-weight: bold;
+		color:black;
+	}
+	@page{
+		size: auto;
+		margin-top:10mm;
+	}
+	td{
+		font-weight: bold;
+		font-size: 18px;
+	}
+	input{
+		font-weight: bold;
+		color:black;
+	}
+	label{
+		font-weight: bold;
+		font-size: 18px;
+	}
+	th{
+		font-weight: bold;
+		color:black;
+		font-size: 18px;
+	}
+	 p{
+    	visibility:visible;
+    }
+    #vanserial{
+    	color:black;
+		font-weight: bold;
+		font-size: 18px;
+    }
+    label{
+    	font-size: 18px;
+    	color:black;
+		font-weight: bold;
+    }
+    #date{
+		border:none;
+		font-weight: bold;
+		color:black;
+		font-size: 18px;
+	}
+}
+
+.bg-image{
+	background-image: url("../img/Softdev.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  visibility: hidden;
+} 
+
+#signature { 
+  color:#e0ebd2;
+  font-family: 'Century Gothic'; 
+  font-size: 15.5px; 
+  border: 1px solid rgba(255, 255, 255, 0.4); 
+  background: rgba(255, 255, 255, 0.8); 
+  width: 330px; 
+  padding: 3px; 
+  position: fixed; 
+  bottom: -10px; 
+  right:0; 
+  border-top-left-radius: 30px; 
+  text-align: center;
+  background-color: #003366;
+  border: 1px solid black;
+} 
+#sigicon { 
+	color: red; 
+}
+
